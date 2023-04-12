@@ -1,4 +1,11 @@
 package ies;
+/** 
+ * Esta clase me va a servir para aprender a documentar con javadoc 
+ * @author Martin Carrasco Armijo
+ * @version 1.0
+ * 
+ * **/
+
 
 public class Empleado {
 	private int emp_no;
