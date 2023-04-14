@@ -40,9 +40,6 @@ public class Empleado {
 	 * Método que nos devuelve el valor que tiene actual la variable a la que 
 	 * hace referencia.
 	 * 
-	 * @return Valor actual de la variable Emp_no
-	 * 
-	 * 
 	 */
 
 	public int getEmp_no() {
