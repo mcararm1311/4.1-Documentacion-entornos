@@ -15,7 +15,7 @@ public class Empleado {
 	private String pobla;
 	private String oficio;
 	private Double salario;
-	private Departamento dept;
+	
 
 
 
@@ -27,14 +27,14 @@ public class Empleado {
 		this.pobla = pobla;
 		this.oficio = oficio;
 		this.salario = salario;
-		this.dept = dept;
+		
 	}
 	
 	public Empleado(int emp_no, String nombre, Double salario, Departamento dept) {
 		this.emp_no = emp_no;
 		this.nombre = nombre;
 		this.salario = salario;
-		this.dept = dept;
+		
 	}
 	/**
 	 * Método que nos devuelve el valor que tiene actual la variable a la que 
@@ -88,13 +88,7 @@ public class Empleado {
 	}
 	
 	
-	public Departamento getDept() {
-		return dept;
-	}
-
-	public void setDept(Departamento dept) {
-		this.dept = dept;
-	}
+	
 	
 /**
  * Método que hace la subida de salario añadiendo al salario 
