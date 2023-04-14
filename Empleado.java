@@ -3,6 +3,7 @@ package ies;
  * Esta clase me va a servir para aprender a documentar con javadoc 
  * @author Martin Carrasco Armijo
  * @version 1.0
+ * @since 14/04/23
  * 
  * **/
 
@@ -33,10 +34,23 @@ public class Empleado {
 		this.salario = salario;
 		this.dept = dept;
 	}
+	/**
+	 * Método que nos devuelve el valor que tiene actual la variable a la que 
+	 * hace referencia.
+	 * 
+	 * @return Valor actual de la variable Emp_no
+	 * 
+	 * 
+	 */
 
 	public int getEmp_no() {
 		return emp_no;
 	}
+
+	/**
+	 * Método que añade o modifica el valor de la variable a la que hace referencia
+	 * @param emp_no Variable que queremos modificar.
+	 */
 
 	public void setEmp_no(int emp_no) {
 		this.emp_no = emp_no;
@@ -83,6 +97,15 @@ public class Empleado {
 		this.dept = dept;
 	}
 	
+/**
+ * Método que hace la subida de salario añadiendo al salario 
+ * por defecto el número de la subida.
+ * 
+ * @param subida Numero en double (con decimales) del valor de la subida.
+ * 
+ * 
+ */
+
 	public void subidasalario(Double subida) {
 		salario = salario + subida;
 	}
