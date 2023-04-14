@@ -110,6 +110,14 @@ public class Empleado {
 		salario = salario + subida;
 	}
 	
+	/**
+	 * Método que devuelve una sentencia boolean donde 
+	 * comprueba si el nombre contiene ["" (comillas)]
+	 * retornando false  si las contiene y true si no las contiene
+	 * 
+	 * @return boolean 
+	 * 
+	 */
 	private boolean comprobar(){
 		if (nombre.equals("")){
 			
