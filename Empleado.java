@@ -17,6 +17,8 @@ public class Empleado {
 	private Double salario;
 	private Departamento dept;
 
+
+
 	public Empleado(int emp_no, String nombre, String apellido, String pobla, String oficio,
 			Double salario, Departamento dept) {
 		this.emp_no = emp_no;
